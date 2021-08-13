@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>ru.geekbrains</groupId>
-    <artifactId>spring-adv-first</artifactId>
+    <artifactId>market</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>spring-adv-first</name>
-    <description>spring-adv-first</description>
+    <name>springadv</name>
+    <description>springadv</description>
     <properties>
         <java.version>11</java.version>
     </properties>
@@ -31,6 +31,10 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
     </dependencies>
 
